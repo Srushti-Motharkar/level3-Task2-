@@ -1,0 +1,160 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+header {
+margin-top: 0px;
+    margin-left: 10px;
+     color:blue;
+    padding: 3px;
+    text-align: center;
+}
+.line h1{
+    padding-left: 100px;
+    margin-inline: 40px;
+    
+
+}
+.line p{
+    padding-left: 100px;
+}
+.line button{
+    align-content: center;
+    background-color: wheat;
+    font-size: 20px;
+    font-style: italic;
+}
+nav {
+  
+    text-align: center;
+    margin: 1px;
+   
+}
+nav a {
+
+    text-decoration: none;
+    color: blue;
+    margin: 90px;
+}
+.nav a:hover{
+    color: orangered;
+}
+.section{
+    padding: 20px;
+   margin: 10px;
+    border-bottom: 1px solid #ddd;
+}
+footer {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+.container {
+    max-width: 1200px;
+    margin: 1px;
+    padding: 1px;
+  text-align:center;
+  
+}
+.hero {
+    background: url('https://example.com/hero-image.jpg') no-repeat center center/cover;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+}
+.Qualification,.contact {
+    margin-top: 100px;
+    margin-bottom: 90px;
+   
+}
+.Overview{
+    margin-bottom: 20px;
+}
+.Benefits{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(129, 29, 129);
+}
+.Benefits h2{
+    margin-bottom:5px;
+}
+.Apply{
+    margin-top: 120px;
+}
+
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+}
+.contact form input, .contact form textarea {
+    text-align: center;
+    margin-bottom: 5px;
+    padding: 10px;
+    font-size: 1rem;
+}
+.contact form button {
+    padding: 10px;
+    font-size: 1rem;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.code{
+position: relative;
+text-align: center;
+color: white;
+height: 400px;
+width: 1400px;
+font-style:italic;
+
+}
+.code h1{
+font-size:20px;
+}
+.centered {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+.centered h5{
+    color: black;
+}
+.heading-container {
+    overflow: hidden;
+    width: 100%;
+    text-align: center;
+
+}
+  
+  #dynamic-heading {
+    display: inline-block;
+    position: relative;
+  }
+  
+  .swipe-word {
+    display: inline-block;
+    position: relative;
+    animation: swipe 2s infinite;
+    
+  }
+  
+  @keyframes swipe {
+    0% { transform: translateX(100%); opacity: 0; }
+    20% { transform: translateX(0); opacity: 1; }
+    80% { transform: translateX(0); opacity: 1; }
+    100% { transform: translateX(-100%); opacity: 0; }
+  }
+  
